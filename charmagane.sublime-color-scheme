@@ -150,7 +150,7 @@
 		{
 			"name": "Function name",
 			"scope": "entity.name.function",
-			"foreground": "#ff79c6"
+			"foreground": "#fe9546"
 		},
 		{
 			"name": "Function arguments",
@@ -160,7 +160,7 @@
 		{
 			"name": "Function call",
 			"scope": "variable.function, variable.annotation, meta.function-call.generic, support.function.go",
-			"foreground": "#ff79c6"
+			"foreground": "#fe9546"
 		},
 		{
 			"name": "Library function",
@@ -190,7 +190,7 @@
 		{
 			"name": "Tag attribute",
 			"scope": "entity.other.attribute-name",
-			"foreground": "#ff79c6"
+			"foreground": "#fe9546"
 		},
 		{
 			"name": "Library constant",
@@ -221,7 +221,7 @@
 		{
 			"name": "Ruby class methods",
 			"scope": "source.ruby variable.other.readwrite",
-			"foreground": "#ff79c6"
+			"foreground": "#fe9546"
 		},
 		{
 			"name": "CSS tag names",
@@ -312,7 +312,7 @@
 		{
 			"name": "Markup List Bullet",
 			"scope": "markup.list punctuation.definition.list.begin",
-			"foreground": "#ff79c6"
+			"foreground": "#fe9546"
 		},
 		{
 			"name": "Markup added",
