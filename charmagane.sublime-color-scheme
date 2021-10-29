@@ -9,17 +9,17 @@
 		"invisibles": "#cccac24d",
 		"caret": "#ffd580",
 		"block_caret": "#ffd5804d",
-		"line_highlight": "#1a1f29",
+		"line_highlight": "#1b2028",
 		"accent": "#ffd580",
-		"popup_css": "\n      html, body {\n        background-color: #282e3b;\n        color: #cccac2;\n        --mdpopups-font-mono: \"PragmataPro Mono Liga\", \"sf mono\", Consolas, \"Liberation Mono\", Menlo, Courier, monospace;\n        --mdpopups-bg: #282e3b;\n        --mdpopups-link: #73d0ff;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: rgba(115,208,255, .7);\n      }\n    ",
+		"popup_css": "\n      html, body {\n        background-color: #282e3b;\n        color: #cccac2;\n        --mdpopups-font-mono: \"PragmataPro Mono Liga\", \"sf mono\", Consolas, \"Liberation Mono\", Menlo, Courier, monospace;\n        --mdpopups-bg: #282e3b;\n        --mdpopups-link: #6fc9f7;\n      }\n      body {\n        padding: 1px 3px;\n      }\n      a {\n        color: rgba(115,208,255, .7);\n      }\n    ",
 		"gutter": "#1e222a",
 		"gutter_foreground": "#8a8e9480",
 		"line_diff_width": "2",
 		"line_diff_added": "#8ad770b3",
 		"line_diff_modified": "#7cb8f5b3",
 		"line_diff_deleted": "#f07b85b3",
-		"selection": "#3388ff40",
-		"selection_border": "#3388ff40",
+		"selection": "#3283f640",
+		"selection_border": "#3283f640",
 		"selection_border_width": "1",
 		"inactive_selection": "#4892fb26",
 		"inactive_selection_border": "#4892fb26",
@@ -39,7 +39,7 @@
 			"name": "Comment",
 			"scope": "comment",
 			"font_style": "italic",
-			"foreground": "#b8cfe680"
+			"foreground": "#b4cbe380"
 		},
 		{
 			"name": "String",
@@ -80,7 +80,7 @@
 			"name": "Language variable",
 			"scope": "variable.language",
 			"font_style": "italic",
-			"foreground": "#5ccfe6"
+			"foreground": "#5bcae1"
 		},
 		{
 			"name": "Storage",
@@ -130,12 +130,12 @@
 		{
 			"name": "Types fixes",
 			"scope": "source.java storage.type, source.haskell storage.type, source.c storage.type",
-			"foreground": "#73d0ff"
+			"foreground": "#6fc9f7"
 		},
 		{
 			"name": "Inherited class type",
 			"scope": "entity.other.inherited-class",
-			"foreground": "#5ccfe6"
+			"foreground": "#5bcae1"
 		},
 		{
 			"name": "Lambda arrow",
@@ -145,7 +145,7 @@
 		{
 			"name": "Java primitive variable types",
 			"scope": "source.java storage.type.primitive",
-			"foreground": "#5ccfe6"
+			"foreground": "#5bcae1"
 		},
 		{
 			"name": "Function name",
@@ -175,17 +175,17 @@
 		{
 			"name": "Entity name",
 			"scope": "entity.name, source.js meta.function-call.constructor variable.type",
-			"foreground": "#73d0ff"
+			"foreground": "#6fc9f7"
 		},
 		{
 			"name": "Tag",
 			"scope": "entity.name.tag, meta.tag.sgml",
-			"foreground": "#5ccfe6"
+			"foreground": "#5bcae1"
 		},
 		{
 			"name": "Tag start/end",
 			"scope": "punctuation.definition.tag.end, punctuation.definition.tag.begin, punctuation.definition.tag",
-			"foreground": "#5ccfe680"
+			"foreground": "#5bcae180"
 		},
 		{
 			"name": "Tag attribute",
@@ -201,22 +201,22 @@
 		{
 			"name": "Library class/type",
 			"scope": "support.type, support.class, source.go storage.type",
-			"foreground": "#5ccfe6"
+			"foreground": "#5bcae1"
 		},
 		{
 			"name": "Decorators/annotation",
 			"scope": "meta.decorator variable.other, meta.decorator punctuation.decorator, storage.type.annotation, variable.annotation, punctuation.definition.annotation",
-			"foreground": "#ffdfb3"
+			"foreground": "#fbdaae"
 		},
 		{
 			"name": "Invalid",
 			"scope": "invalid",
-			"foreground": "#ff6666"
+			"foreground": "#f96565"
 		},
 		{
 			"name": "diff.header",
 			"scope": "meta.diff, meta.diff.header",
-			"foreground": "#c594c5"
+			"foreground": "#c695c6"
 		},
 		{
 			"name": "Ruby class methods",
@@ -226,23 +226,23 @@
 		{
 			"name": "CSS tag names",
 			"scope": "source.css entity.name.tag, source.sass entity.name.tag, source.scss entity.name.tag, source.less entity.name.tag, source.stylus entity.name.tag",
-			"foreground": "#73d0ff"
+			"foreground": "#6fc9f7"
 		},
 		{
 			"name": "CSS browser prefix",
 			"scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus support.type",
-			"foreground": "#b8cfe680"
+			"foreground": "#b4cbe380"
 		},
 		{
 			"name": "CSS Properties",
 			"scope": "support.type.property-name",
 			"font_style": "normal",
-			"foreground": "#5ccfe6"
+			"foreground": "#5bcae1"
 		},
 		{
 			"name": "Search Results Nums",
 			"scope": "constant.numeric.line-number.find-in-files - match",
-			"foreground": "#b8cfe680"
+			"foreground": "#b4cbe380"
 		},
 		{
 			"name": "Search Results Match Nums",
@@ -256,7 +256,7 @@
 		},
 		{
 			"scope": "message.error",
-			"foreground": "#ff6666"
+			"foreground": "#f96565"
 		},
 		{
 			"name": "Markup heading",
@@ -267,7 +267,7 @@
 		{
 			"name": "Markup links",
 			"scope": "markup.underline.link, string.other.link",
-			"foreground": "#73d0ff"
+			"foreground": "#6fc9f7"
 		},
 		{
 			"name": "Markup Italic",
@@ -301,7 +301,7 @@
 			"scope": "meta.separator",
 			"font_style": "bold",
 			"background": "#cccac20f",
-			"foreground": "#b8cfe680"
+			"foreground": "#b4cbe380"
 		},
 		{
 			"name": "Markup Blockquote",
@@ -332,13 +332,13 @@
 		{
 			"name": "Markup Strike",
 			"scope": "markup.strike",
-			"foreground": "#ffdfb3"
+			"foreground": "#fbdaae"
 		},
 		{
 			"name": "Markup Table",
 			"scope": "markup.table",
 			"background": "#cccac20f",
-			"foreground": "#5ccfe6"
+			"foreground": "#5bcae1"
 		},
 		{
 			"name": "Markup Raw Inline",
@@ -348,14 +348,14 @@
 		{
 			"name": "Markdown - Line Break",
 			"scope": "text.html.markdown meta.dummy.line-break",
-			"background": "#b8cfe680",
-			"foreground": "#b8cfe680"
+			"background": "#b4cbe380",
+			"foreground": "#b4cbe380"
 		},
 		{
 			"name": "Markdown - Raw Block Fenced",
 			"scope": "punctuation.definition.markdown",
 			"background": "#cccac2",
-			"foreground": "#b8cfe680"
+			"foreground": "#b4cbe380"
 		}
 	]
 }
