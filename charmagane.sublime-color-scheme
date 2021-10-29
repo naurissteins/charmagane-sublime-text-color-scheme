@@ -100,7 +100,7 @@
 		{
 			"name": "Operators",
 			"scope": "keyword.operator",
-			"foreground": "#f2749f"
+			"foreground": "#60b463"
 		},
 		{
 			"name": "Separators like ; or ,",
@@ -115,7 +115,7 @@
 		{
 			"name": "Accessor",
 			"scope": "punctuation.accessor",
-			"foreground": "#f2749f"
+			"foreground": "#60b463"
 		},
 		{
 			"name": "JavaScript/TypeScript interpolation punctuation",
@@ -196,7 +196,7 @@
 			"name": "Library constant",
 			"scope": "support.constant",
 			"font_style": "italic",
-			"foreground": "#f2749f"
+			"foreground": "#60b463"
 		},
 		{
 			"name": "Library class/type",
@@ -343,7 +343,7 @@
 		{
 			"name": "Markup Raw Inline",
 			"scope": "text.html.markdown markup.inline.raw",
-			"foreground": "#f2749f"
+			"foreground": "#60b463"
 		},
 		{
 			"name": "Markdown - Line Break",
